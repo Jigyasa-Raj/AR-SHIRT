@@ -24,7 +24,7 @@ Windows coming soon.
 
 ## Installation
 
-First download the apk file from this link: [Dowload Symbol](https://drive.google.com/file/d/1kFJROFXUBmg8ISDUkOsFq4iAkSopbBSq/view?usp=sharing)
+First download the apk file from this link: [Dowload](https://drive.google.com/file/d/1kFJROFXUBmg8ISDUkOsFq4iAkSopbBSq/view?usp=sharing)
 
 
 
