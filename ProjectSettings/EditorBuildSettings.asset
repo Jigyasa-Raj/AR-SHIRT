@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shirts.unity
     guid: c72535522673de44886d5807e566549c
+  - enabled: 1
+    path: Assets/Scenes/Pants.unity
+    guid: a4467446a7e57a048bdc6ae4e6643de6
   m_configObjects: {}
