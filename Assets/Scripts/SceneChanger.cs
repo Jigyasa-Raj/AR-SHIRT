@@ -15,13 +15,13 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadSceneAsync(2);
     }
 
-    public void Pant()
-    {
-        SceneManager.LoadSceneAsync(3);
-    }
+    //public void Pant()
+    //{
+    //    SceneManager.LoadSceneAsync(3);
+    //}
 
     public void Shirt_Cam()
     {
-        SceneManager.LoadSceneAsync(4);
+        SceneManager.LoadSceneAsync(3);
     }
 }
