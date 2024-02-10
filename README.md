@@ -2,6 +2,17 @@
 
 Now you can check the clothes in a 3D view and experience the best AR view of the same. Works great on `Android, iPad OS, iOS, Web`.
 
+1. Onboarding: Users create an account and download the app.
+2. Browse: Users filter T-shirt catalog by size, color, style.
+3. Try-On: Users select a T-shirt for virtual try-on.
+4. Permissions: App prompts camera permissions if needed.
+5. Virtual Try-On: Users see T-shirt on their image in real-time.
+6. Customization: Users can customize color or design.
+7. Selection: Add T-shirt to cart or wishlist.
+8. Checkout: Review cart, enter shipping/payment info, complete purchase.
+9. Confirmation: Order confirmed with estimated delivery time.
+10. Feedback: Users provide feedback or access support.
+
 
 <br />
 ### Notes
@@ -35,7 +46,7 @@ The preview of the applicaiton:
 ![img3](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/wodrobe.jpg)
 
 the video of the application working!
-![gif](https://github.com/Jigyasa-Raj/AR-SHIRT/assets/102756648/59388358-dabf-4c06-b040-bbfe5dca276e)
+![gif](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/vid.mp4)
 
 
 
