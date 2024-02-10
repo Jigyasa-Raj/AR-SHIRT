@@ -26,6 +26,15 @@ Windows coming soon.
 
 First download the apk file from this link: [Dowload](https://drive.google.com/file/d/1kFJROFXUBmg8ISDUkOsFq4iAkSopbBSq/view?usp=sharing)
 
+## Preview
+
+The preview of the applicaiton:
+![img](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/cloth.jpg)
+![img1](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/cloth1.jpg)
+![img2](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/start.jpg)
+![img3](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/wodrobe.jpg)
+![gif](https://github.com/Jigyasa-Raj/AR-SHIRT/blob/main/img/vid.mp4)
+
 
 
 You will need to open and export a Unity project, even for running the example. Your build will fail if you only include the widget in Flutter!
