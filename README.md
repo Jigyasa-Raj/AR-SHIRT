@@ -1,6 +1,6 @@
 # AR - SHIRT
 
-Flutter unity 3D widget for embedding unity in flutter. Now you can check the clothes in a 3D view and experience the best AR view of the same. Works great on `Android, iPad OS, iOS, Web`.
+Now you can check the clothes in a 3D view and experience the best AR view of the same. Works great on `Android, iPad OS, iOS, Web`.
 
 
 <br />
@@ -31,21 +31,14 @@ First download the apk file from this link: [Dowload](https://drive.google.com/f
 You will need to open and export a Unity project, even for running the example. Your build will fail if you only include the widget in Flutter!
 
 
-## Preview
 
-30 fps gifs, showcasing communication between Flutter and Unity:
 
-![gif](https://github.com/juicycleff/flutter-unity-view-widget/blob/master/files/preview_android.gif?raw=true)
-![gif](https://github.com/juicycleff/flutter-unity-view-widget/blob/master/files/preview_ios.gif?raw=true)
+
+
+
 
 <br />
 
-## Setup 
-
-In the tutorial below, there are steps specific to each platform, denoted by a :information_source: icon followed by
-the platform name (Android or iOS). You can click on its icon to expand it.
-
-### Prerequisites
 
 - An existing Flutter project (if there is none, you can [create a new one](https://flutter.dev/docs/get-started/test-drive#create-app))
 
@@ -53,35 +46,6 @@ the platform name (Android or iOS). You can click on its icon to expand it.
 
 
 
-### Unity project setup
-These instructions assume you are using a new Unity project. If you open the example project from this repository, you can move on to the next section **Unity Exporting**.
-
-1. Create a folder named *unity* in your Flutter project folder and move the Unity project into there.  
-  The Unity export will modify some files in  the `/android` and `/ios` folders of your flutter project. If your Unity project is in a different location the export might (partially) fail.
-
-  > The expected path is *<flutter-project>/unity/__project-name__/...*
-
-
-2. Make sure you have downloaded the apk file!</b>.
-
-3. Using Unity (hub), open the Unity project.
-  Go to **Assets > Import Package > Custom Package** and select the downloaded *fuw-XXXX.unitypackage* file. Click on **Import**.
-
-4. Go to **File > Build Settings > Player Settings**
-    and change the following under the **Other settings > Configuration** section:
-
-  - In **Scripting Backend**, change to IL2CPP
-
-  - (Android) **Target Architectures**, select ARMv7 and ARM64
-
-  - (Android) For the best compatibility set **Active Input Handling** to `Input Manager (Old)` or `Both`.  
-    (The new input system has some issues with touch input on Android)
-
-  - (iOS) Select **Target SDK** depending on where you will run your app (simulator or physical device).  
-    We recommend starting with a physical device and the `Device SDK` setting, due to limited simulator support.
-
-  - (Web) Set <b>Publishing settings > Compression format</b> to Brotli or Disabled.  
-  Some users report that Unity gets stuck on the loading screen with the Gzip setting, due to MIME type errors.
 
   <img src="https://raw.githubusercontent.com/juicycleff/flutter-unity-view-widget/master/files/Screenshot%202019-03-27%2007.31.55.png" width="400" />
 
@@ -94,17 +58,11 @@ If you end up having to change a build setting that doesn't seem to respond, tak
 
 ### Unity exporting
 
-1. After importing the unitypackage, you should now see a **Flutter** option at the top of the Unity editor.
+1. After importing the unitypackage, you should now see option at the top of the Unity editor.
 
-2. Click on **Flutter** and select the appropriate export option:
 
-  - For android use **Export Android Debug** or **Export Android Release**.  
-   This will export to *android/unityLibrary*.
-  - For iOS use **Export iOS Debug** or **Export iOS Release**.  
-   This will export to *ios/UnityLibrary*.
-  - Do not use **Flutter > Export _Platform_ plugin** as it was specially added to work with [`flutter_unity_cli`](https://github.com/juicycleff/flutter_unity_cli) for larger projects.
  
-  <img src="https://github.com/juicycleff/flutter-unity-view-widget/blob/master/files/Unity_Build_Options.png?raw=true" width="400" />
+  
  
    If you use git, you will probably want to add these unityLibrary folders to your gitignore file.
    These folders can get huge and are not guaranteed to work on another computer.
