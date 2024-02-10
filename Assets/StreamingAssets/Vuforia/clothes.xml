@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="mens-tshirt" size="6.000000 4.500000" />
+    <ImageTarget name="jeans" size="6.000000 5.956679" />
+  </Tracking>
+</QCARConfig>
