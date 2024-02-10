@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pants.unity
     guid: a4467446a7e57a048bdc6ae4e6643de6
+  - enabled: 1
+    path: Assets/Scenes/Home.unity
+    guid: 1d8931e066cb2aa41b6b5e1f8ebb55a4
+  - enabled: 1
+    path: Assets/Scenes/GoNext.unity
+    guid: da53c3d992101e24e8d94474e5ae015e
   m_configObjects: {}

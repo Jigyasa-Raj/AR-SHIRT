@@ -19,4 +19,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(3);
     }
+
+    public void Shirt_Cam()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
 }
