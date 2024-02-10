@@ -9,4 +9,14 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void Shirt()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+
+    public void Pant()
+    {
+        SceneManager.LoadSceneAsync(3);
+    }
 }
